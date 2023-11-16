@@ -9,24 +9,25 @@
   }
 
 body { 
-    min-height: 100%; 
+    min-height: 100vh; 
     display: flex; 
-    flex-direction: column; 
+    flex-direction: column;
 }
 
 .main-page {
-    background: url(../assets/pale-pieces.jpg) center;
+    background: linear-gradient(rgba(230, 200, 150, 0.7), rgba(255,255,255,.5)), url(../assets/pale-pieces.jpg) center;
     background-repeat: no-repeat;
     background-size: cover;
+    flex: 1; /* take up remaining vertical space */
 }
 
-.page-wrapper {
-    /* add a haze over the background image*/
-    background-color: rgba(240, 220, 200, 0.7);
-}
-
-h3 {
+h2 {
     padding: 10px;
+    background: rgba(117, 111, 99, 0.7);
+    color: white;
+    /* for border around text
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1px black; */
 }
 
 footer {
