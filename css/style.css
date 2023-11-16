@@ -1,8 +1,25 @@
 
+/* can i define global colour names for certain specific hex codes? */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Trebuchet MS", sans-serif;
+    /* add highlight colours for (standard/hover/visited) links etc */
+  }
+
+body { 
+    display: flex; 
+    flex-direction: column; 
+}
+
 footer {
     text-align: center;
-    padding: 5px;
     background-color: #8de2d0;
     color: #0a5c47;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
   }
   
