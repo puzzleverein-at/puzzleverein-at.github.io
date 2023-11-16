@@ -30,7 +30,9 @@ h3 {
 }
 
 footer {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #8de2d0;
     color: #0a5c47;
     width: 100%;
