@@ -46,7 +46,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-self: center;
-    width: 70%;
+    width: 50%;
     position: fixed;
     top: 50%;
     left: 50%;
