@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de-at">
+<html lang="en-us">
   <head>
     
     <script type="application/ld+json">
@@ -95,12 +95,12 @@
       <header id="header" data-behavior="1">
   <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
   <div class="header-title">
-    <a class="header-title-link" href="https://puzzleverein-at.github.io/" aria-label="">Puzzleverein Österreich</a>
+    <a class="header-title-link" href="https://puzzleverein-at.github.io/" aria-label="Gehe zur Homepage">Puzzleverein Österreich</a>
   </div>
   
     
       <a class="header-right-icon "
-         href="https://puzzleverein-at.github.io/about" aria-label="">
+         href="https://puzzleverein-at.github.io/about" aria-label="Öffne den Link: /about">
     
     
       <i class="fa fa-lg fa-images/pieces-icon.png"></i>
@@ -114,8 +114,8 @@
   <div class="sidebar-container">
     
       <div class="sidebar-profile">
-        <a href="https://puzzleverein-at.github.io/#about" aria-label="">
-          <img class="sidebar-profile-picture" src="https://puzzleverein-at.github.io/images/pieces-icon.png" alt="" />
+        <a href="https://puzzleverein-at.github.io/#about" aria-label="Lies mehr über die Autoren">
+          <img class="sidebar-profile-picture" src="https://puzzleverein-at.github.io/images/pieces-icon.png" alt="Bild des Autors" />
         </a>
         <h4 class="sidebar-profile-name">Willkommen beim Puzzleverein Österreich</h4>
         
@@ -137,17 +137,17 @@
 
   <li class="sidebar-button">
     
-      <a class="sidebar-button-link " href="https://puzzleverein-at.github.io/about" title="About">
+      <a class="sidebar-button-link " href="https://puzzleverein-at.github.io/tags/#about" title="About Us">
     
       <i class="sidebar-button-icon fas fa-lg fa-question" aria-hidden="true"></i>
       
-      <span class="sidebar-button-desc">About</span>
+      <span class="sidebar-button-desc">Über Uns</span>
     </a>
   </li>
 
   <li class="sidebar-button">
     
-      <a class="sidebar-button-link " href="https://puzzleverein-at.github.io/posts" title="Posts">
+      <a class="sidebar-button-link " href="https://puzzleverein-at.github.io/tags" title="Posts">
     
       <i class="sidebar-button-icon fas fa-lg fa-tags" aria-hidden="true"></i>
       
@@ -157,7 +157,7 @@
 
   <li class="sidebar-button">
     
-      <a class="sidebar-button-link " href="https://puzzleverein-at.github.io/events" title="Events">
+      <a class="sidebar-button-link " href="https://puzzleverein-at.github.io/tags/#event" title="Events">
     
       <i class="sidebar-button-icon fas fa-lg fa-bookmark" aria-hidden="true"></i>
       
@@ -207,24 +207,123 @@
 
         <div id="tags-archives" class="main-content-wrap">
           <form id="filter-form" action="#">
-            <input name="tag" type="text" class="form-control input--xlarge" placeholder="" autofocus="autofocus">
+            <input name="tag" type="text" class="form-control input--xlarge" placeholder="Suche Tag" autofocus="autofocus">
           </form>
           <h4 class="archive-result text-color-base text-xlarge"
-              data-message-zero=""
-              data-message-one=""
-              data-message-other=""></h4>
+              data-message-zero="kein Tag gefunden"
+              data-message-one="1 Tag gefunden"
+              data-message-other="{n} Tags gefunden"></h4>
 
             <section>
               
+                <a class="tag tag--primary tag--small" href="#event-list" data-tag="event">
+                  event
+                </a>
+              
+                <a class="tag tag--primary tag--small" href="#meetup-list" data-tag="meetup">
+                  meetup
+                </a>
+              
+                <a class="tag tag--primary tag--small" href="#vienna-list" data-tag="vienna">
+                  vienna
+                </a>
+              
             </section>
             <section class="boxes">
+              
+                <div id="event-list" class="archive box" data-tag="event">
+                  <h4 class="archive-title">
+                    <a class="link-unstyled" href="event">
+                      event (2)
+                    </a>
+                  </h4>
+                  <ul class="archive-posts">
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="https://puzzleverein-at.github.io/2023/12/erstes-puzzle-meetup-in-wien/">
+                          Erstes Puzzle Meetup in Wien
+                        </a>
+                        <span class="archive-post-date"> - 
+  Dezember 19, 2023
+</span>
+                      </li>
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="https://puzzleverein-at.github.io/2023/12/first-puzzle-meetup-in-vienna/">
+                          First Puzzle Meetup in Vienna
+                        </a>
+                        <span class="archive-post-date"> - 
+  Dezember 19, 2023
+</span>
+                      </li>
+                    
+                  </ul>
+                </div>
+              
+                <div id="meetup-list" class="archive box" data-tag="meetup">
+                  <h4 class="archive-title">
+                    <a class="link-unstyled" href="meetup">
+                      meetup (2)
+                    </a>
+                  </h4>
+                  <ul class="archive-posts">
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="https://puzzleverein-at.github.io/2023/12/erstes-puzzle-meetup-in-wien/">
+                          Erstes Puzzle Meetup in Wien
+                        </a>
+                        <span class="archive-post-date"> - 
+  Dezember 19, 2023
+</span>
+                      </li>
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="https://puzzleverein-at.github.io/2023/12/first-puzzle-meetup-in-vienna/">
+                          First Puzzle Meetup in Vienna
+                        </a>
+                        <span class="archive-post-date"> - 
+  Dezember 19, 2023
+</span>
+                      </li>
+                    
+                  </ul>
+                </div>
+              
+                <div id="vienna-list" class="archive box" data-tag="vienna">
+                  <h4 class="archive-title">
+                    <a class="link-unstyled" href="vienna">
+                      vienna (2)
+                    </a>
+                  </h4>
+                  <ul class="archive-posts">
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="https://puzzleverein-at.github.io/2023/12/erstes-puzzle-meetup-in-wien/">
+                          Erstes Puzzle Meetup in Wien
+                        </a>
+                        <span class="archive-post-date"> - 
+  Dezember 19, 2023
+</span>
+                      </li>
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="https://puzzleverein-at.github.io/2023/12/first-puzzle-meetup-in-vienna/">
+                          First Puzzle Meetup in Vienna
+                        </a>
+                        <span class="archive-post-date"> - 
+  Dezember 19, 2023
+</span>
+                      </li>
+                    
+                  </ul>
+                </div>
               
            </section>
          </div>
         <footer id="footer" class="main-content-wrap">
   <span class="copyrights">
     &copy; 2023 Puzzleverein Österreich - Verein zur Förderung des Puzzelns | ZVR Nr 1988846228 | Sitz in Graz 
- Sag >><a href="mailto:hallo@puzzleverein.at">hallo@puzzleverein.at</a><< . 
+ Sag >><a href="mailto:hallo@puzzleverein.at">hallo@puzzleverein.at</a><< . Alle Rechte vorbehalten
   </span>
 </footer>
 
@@ -236,7 +335,7 @@
       <i class="fa fa-times"></i>
     </div>
     
-      <img id="about-card-picture" src="https://puzzleverein-at.github.io/images/pieces-icon.png" alt="" />
+      <img id="about-card-picture" src="https://puzzleverein-at.github.io/images/pieces-icon.png" alt="Bild des Autors" />
     
     <h4 id="about-card-name">Willkommen beim Puzzleverein Österreich</h4>
     

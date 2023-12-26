@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Puzzleverein Österreich</title>
-    <link>https://puzzleverein-at.github.io/</link>
-    <description>Recent content on Puzzleverein Österreich</description>
+    <title>meetup on Puzzleverein Österreich</title>
+    <link>https://puzzleverein-at.github.io/tags/meetup/</link>
+    <description>Recent content in meetup on Puzzleverein Österreich</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://puzzleverein-at.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://puzzleverein-at.github.io/tags/meetup/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Erstes Puzzle Meetup in Wien</title>
       <link>https://puzzleverein-at.github.io/2023/12/erstes-puzzle-meetup-in-wien/</link>
