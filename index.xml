@@ -17,12 +17,21 @@
     </item>
     
     <item>
-      <title>First Puzzle Meetup in Vienna</title>
-      <link>https://puzzleverein-at.github.io/2023/12/first-puzzle-meetup-in-vienna/</link>
-      <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
+      <title>Unsere Events</title>
+      <link>https://puzzleverein-at.github.io/events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://puzzleverein-at.github.io/2023/12/first-puzzle-meetup-in-vienna/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget urna vitae velit eleifend interdum at ac nisi. In nec ligula lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eu cursus erat, ut dapibus quam. Aliquam eleifend dolor vitae&lt;/p&gt;</description>
+      <guid>https://puzzleverein-at.github.io/events/</guid>
+      <description>&lt;p&gt;Hier findest du unsere kommenden Events.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Wir sind der Puzzleverein Österreich!</title>
+      <link>https://puzzleverein-at.github.io/ueber-uns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://puzzleverein-at.github.io/ueber-uns/</guid>
+      <description>&lt;p&gt;Als enthusiastische, jedoch über das Land verteilte Puzzle-Fans haben wir uns gegenseitig gesucht und nach und nach gefunden. Um die Organisation zu erleichtern und noch mehr Puzzle-Begeisterte in unserer Umgebung zu entdecken, haben wir beschlossen, einen offiziellen Verein zu gründen!&lt;/p&gt;</description>
     </item>
     
   </channel>
