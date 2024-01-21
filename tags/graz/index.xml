@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>meetup on Puzzleverein Österreich</title>
-    <link>https://puzzleverein-at.github.io/tags/meetup/</link>
-    <description>Recent content in meetup on Puzzleverein Österreich</description>
+    <title>graz on Puzzleverein Österreich</title>
+    <link>https://puzzleverein-at.github.io/tags/graz/</link>
+    <description>Recent content in graz on Puzzleverein Österreich</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://puzzleverein-at.github.io/tags/meetup/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://puzzleverein-at.github.io/tags/graz/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Erster Puzzletreff in Graz</title>
       <link>https://puzzleverein-at.github.io/2024/01/erster-puzzletreff-in-graz/</link>
@@ -14,15 +14,6 @@
       
       <guid>https://puzzleverein-at.github.io/2024/01/erster-puzzletreff-in-graz/</guid>
       <description>&lt;p&gt;Als eine stetig wachsende Gruppe in Graz und Umgebung haben wir seit einiger Zeit die Praxis, Puzzles zu tauschen. Angesichts der zahlreichen neuen Mitglieder haben wir dies zum Anlass genommen, uns als Kollektiv zu treffen, um nicht nur Puzzles auszutauschen, sondern auch gemeinsam zu puzzeln!&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Erstes Puzzle-Treffen in Wien</title>
-      <link>https://puzzleverein-at.github.io/2023/12/erstes-puzzle-treffen-in-wien/</link>
-      <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://puzzleverein-at.github.io/2023/12/erstes-puzzle-treffen-in-wien/</guid>
-      <description>&lt;p&gt;In Wien hat sich eine Gruppe von Puzzle-Fans gefunden, die ein monatliches Meetup ins Leben gerufen haben!&lt;/p&gt;</description>
     </item>
     
   </channel>
